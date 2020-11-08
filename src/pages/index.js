@@ -1,3 +1,12 @@
-import React from "react"
+import React from "react";
+import Layout from "../components/Layout";
+import Landing from "../components/Landing";
+import LandingMain from "../components/landingMain";
 
-export default () => <div>Hello world!</div>
+export default (props) => {
+    return (
+        <Layout main={<Landing />}>
+            <LandingMain />
+        </Layout>
+    )
+};

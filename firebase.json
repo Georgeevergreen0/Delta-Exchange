@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "public",
+    "site": "evergreen-jobs",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

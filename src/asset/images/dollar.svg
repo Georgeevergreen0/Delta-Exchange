@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <filter id="prefix__a" width="142.1%" height="141.4%" x="-21.1%" y="-20.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.372678895 0 0 0 0 0.356317382 0 0 0 0 0.356317382 0 0 0 0.25 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" filter="url(#prefix__a)" transform="translate(3)">
+        <path d="M0 0L30 0 30 30 0 30z"/>
+        <path fill="#FFF" fill-rule="nonzero" d="M15 27.5C8.096 27.5 2.5 21.904 2.5 15S8.096 2.5 15 2.5 27.5 8.096 27.5 15 21.904 27.5 15 27.5zm0-2.5c5.523 0 10-4.477 10-10S20.523 5 15 5 5 9.477 5 15s4.477 10 10 10zm-4.375-7.5H17.5a.625.625 0 100-1.25h-5a3.125 3.125 0 010-6.25h1.25V7.5h2.5V10h3.125v2.5H12.5a.625.625 0 100 1.25h5a3.125 3.125 0 010 6.25h-1.25v2.5h-2.5V20h-3.125v-2.5zM39 22c-9.925 0-18 8.075-18 18s8.075 18 18 18 18-8.075 18-18-8.075-18-18-18z"/>
+        <path fill="#19BCED" d="M37.6 31v2.714H39V31h2.8v2.714c2.316 0 4.2 1.827 4.2 4.072 0 1.046-.421 1.992-1.092 2.714.672.722 1.092 1.668 1.092 2.714 0 2.245-1.884 4.072-4.2 4.072V50H39v-2.714h-1.4V50h-2.8v-2.714H32V44.57h1.4V36.43H32v-2.715h2.8V31h2.8zm4.034 10.38h-5.6v2.8h5.6c.772 0 1.4-.628 1.4-1.4 0-.773-.628-1.4-1.4-1.4zm0-5h-5.6v2.8h5.6c.772 0 1.4-.628 1.4-1.4 0-.773-.628-1.4-1.4-1.4z"/>
+        <path fill="#FFF" fill-rule="nonzero" d="M31 8.333h10.165c1.868 0 3.389 1.57 3.389 3.5v4.184l-2.59-2.675-1.597 1.65 4.518 4.666c.22.227.51.342.798.342.29 0 .579-.115.799-.342L51 14.992l-1.597-1.65-2.59 2.675v-4.184C46.813 8.617 44.279 6 41.165 6H31v2.333zM7.54 42.286v-6.384l2.628 2.62 1.62-1.615-4.584-4.572a1.147 1.147 0 00-1.62 0L1 36.907l1.62 1.616 2.628-2.62v6.383c0 3.15 2.57 5.714 5.73 5.714H19v-2.286h-8.022a3.438 3.438 0 01-3.438-3.428z"/>
+    </g>
+</svg>
